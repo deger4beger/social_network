@@ -1,0 +1,55 @@
+.dialogs {
+	display: grid;
+	grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems {
+	padding: 10px;
+}
+
+
+.dialogName a {
+	color: black;
+	display: block;
+	margin:	20px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.dialog {
+	background: white url(https://im0-tub-kz.yandex.net/i?id=990270c3793a9f1a65e0d65b63ceddac&n=13) 14px 50% no-repeat;
+	background-size: 20px 20px;
+	margin: 10px 10px 10px 50px;
+	padding: 15px 15px 15px 80px;
+	border-radius: 20px;
+	width: 500px;
+}
+
+.messages {
+	padding: 10px;
+}
+
+/*.dialog {
+	color: white;
+}*/
+
+.sendArea {
+	width: 250px;
+	height: 57px;
+	padding: 10px;
+}
+
+.button {
+	margin-left: 1px;
+	height: 57px;
+}
+
+.field1 {
+	margin-left: 50px;
+}
+
+
+.form {
+	display: flex;
+	margin-top: 40px;
+}

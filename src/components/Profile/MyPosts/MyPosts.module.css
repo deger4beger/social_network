@@ -1,0 +1,22 @@
+.posts {
+	margin-top: 15px;
+	margin-left: 30px;
+}
+.form {
+	display: flex;
+	justify-content: center;
+}
+
+.formArea {
+	width: 250px;
+	height: 62px;
+	padding: 5px;
+}
+
+.addPostButton {
+	height: 62px;
+}
+
+.title {
+	text-align: center;
+}

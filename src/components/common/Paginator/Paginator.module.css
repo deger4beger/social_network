@@ -1,0 +1,25 @@
+
+.pageNumber.selectedPage {
+	font-weight: bolder;
+	padding: 15px;
+	background: #945;
+}
+
+.pageNumber {
+	display: inline-block;
+	padding: 10px;
+	background: #931;
+	margin: 10px;
+	color: white;
+	border-radius: 3px;
+}
+
+.pageNumber:hover {
+	background: #888;
+	cursor: pointer;
+}
+
+.common {
+	display: flex;
+	align-items: center;
+}

@@ -1,0 +1,46 @@
+.nav {
+	grid-area: n;
+	background-color: #9ea77f;
+	padding: 20px;
+}
+
+.nav .navItems .item.big {
+	margin-top: 40px;
+}
+
+.item {
+	margin: 15px;
+	margin-left: 0px;
+	font-weight: lighter;
+}
+
+.item:hover {
+	cursor: pointer;
+}
+
+.item a {
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.item a.active {
+	color: blue
+}
+
+.friendsTitle h2 {
+	color: white;
+	font-weight: lighter;
+	font-size: 45px;
+	display: block;
+	margin-left: 0px;
+	margin-top: 70px;
+	margin-bottom: 0;
+}
+
+.friends {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
