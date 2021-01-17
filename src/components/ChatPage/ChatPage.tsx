@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react"
+import { withAuthRedirect } from '../../hoc/withAuthRedirect';
 
 type ChatMessageType = {
 	message: string,
@@ -110,5 +111,5 @@ const AddMessageForm: React.FC<{wsChannel: WebSocket | null}> = ({wsChannel}) =>
 }
 
 
-export default Chat
+export default withAuthRedirect(Chat)
 
