@@ -1,4 +1,4 @@
-## Samurai JS First educational react project (+ Ant Design + WebSocket)
+## Samurai JS First educational react project (React + Redux + Ant Design + WebSocket)
 
 
 
